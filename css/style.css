@@ -84,6 +84,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+/* <uniquifier>: Use a unique and descriptive class name
+   <weight>: Use a value from 200 to 800
+    */
+   .plus-jakarta-sans-<uniquifier> {
+     font-family: "Plus Jakarta Sans", serif;
+     font-optical-sizing: auto;
+     font-weight: <weight>;
+     font-style: normal;
+   }
+
+   .castoro-regular {
+    font-family: "Castoro", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .castoro-regular-italic {
+    font-family: "Castoro", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
